@@ -18,5 +18,17 @@ export const s = StyleSheet.create({
         borderRadius: 5,
         justifyContent: "center",
         alignItems: "center",
+    },
+    searchContainer: {
+        position: "absolute",
+        zIndex: 1,
+        width: "90%",
+        top: 44,
+    },
+    searchInput: {
+        height: 56,
+        borderRadius: 7,
+        borderWidth: 2,
+        borderColor: Colors.gray[100]
     }
 })
